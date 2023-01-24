@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaxCal</title>
+    <link rel="shortcut icon" type="image" href="img/title.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascr.js"></script>
+</head>
+<body>
+    <header>
+        <h1 data-text="Tax-Calculator" class="title">Tax-Calculator</h1>
+    </header>
+
+    <ul class="accordion">
+        <li>
+        <input type="radio" name="accordion" id="Income" checked>
+        <label for="Income">Income Details</label>
+        <div class="income-details">
+            <h4>Gross Income</h4>
+            <input type="number" id="gross" required value="0">
+        </div>
+        </li>
+
+        <li>
+            <input type="radio" name="accordion" id="D">
+            <label for="D">Deduction Details</label>
+            <div class="income-details">
+                <h4>Standard Deduction</h4>
+            <input type="number" value="50000" required id="SD">
+            <h4>80C</h4>
+            <input type="number" id="Ded" required value="150000">
+            </div>
+            </li>
+    </ul>
+
+    <div class="cal">
+    <input type="submit" value="Calculate" onclick="final()">
+</div>
+</div>
+
+<div class="result">
+    <h1 id="R" ></h1>
+</div>
+</body>
+</html>

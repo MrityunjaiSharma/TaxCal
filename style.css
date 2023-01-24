@@ -1,10 +1,3 @@
-/*
-base1 color:- #7286D3;
-base2 color:- #7286D3;
-base3 color:- #7286D3;
-base4 color:- #7286D3;
-*/
-
 
 *{
     margin: 0;
@@ -56,7 +49,8 @@ header{
 
 .accordion{
     margin: 60px auto;
-    width: 600px;
+    width: 300px;
+    transform: translateX(-20px);
 }
 
 .accordion li{
@@ -150,7 +144,7 @@ input[type="submit"]{
 
 
 .result{
-    margin: 100px auto;
+    margin: 50px auto;
     width: 50%;
     height: 150px;
     border-radius: 5px;

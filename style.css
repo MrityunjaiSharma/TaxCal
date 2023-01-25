@@ -48,7 +48,7 @@ header{
 }
 
 .accordion{
-    margin: 60px auto;
+    margin: 20px auto;
     width: 300px;
     transform: translateX(-20px);
 }
@@ -56,7 +56,7 @@ header{
 .accordion li{
     list-style: none;
     width: 100%;
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.3),
@@ -66,8 +66,8 @@ header{
 .accordion li label{
     display: flex;
     align-items: center;
-    padding: 10px;
-    font-size: 18px;
+    padding: 0px;
+    font-size: 16px;
     font-weight: 500;
     cursor: pointer;
     border-bottom: 2px solid #777;
@@ -106,7 +106,7 @@ input[type="radio"]{
 
 input[type="number"]{
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
     padding: 5px;
     outline: none;
     -moz-appearance: textfield;
@@ -146,7 +146,7 @@ input[type="submit"]{
 .result{
     margin: 50px auto;
     width: 50%;
-    height: 150px;
+    height: 70px;
     border-radius: 5px;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.3),
     -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
@@ -155,4 +155,18 @@ input[type="submit"]{
     align-items: center;
     color: #555;
 
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+    margin: 50px auto;
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 2px black);
 }
